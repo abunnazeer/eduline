@@ -1,0 +1,15 @@
+.list {
+  display: inline-block;
+  a {
+    color: #2f3430;
+    &:hover {
+      color: #de9e00;
+    }
+  }
+
+  li {
+    display: inline-block;
+    margin: 0 1rem;
+    font-size: 2rem;
+  }
+}
