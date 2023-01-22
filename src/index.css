@@ -24,8 +24,44 @@ body {
   box-sizing: border-box;
 }
 
+.margin_auto {
+  margin: 0 auto;
+}
+
 .mr {
   margin-right: 1rem;
+}
+
+.ml_10 {
+  margin-left: 10rem;
+}
+
+.mt_1 {
+  margin-top: 1rem;
+}
+
+.mt_2 {
+  margin-top: 2rem;
+}
+
+.mt_3 {
+  margin-top: 3rem;
+}
+
+.mt_5 {
+  margin-top: 5rem;
+}
+
+.mt_10 {
+  margin-top: 10rem;
+}
+
+.bgwhite {
+  background-color: white;
+}
+
+.br_10 {
+  border-radius: 100rem;
 }
 
 .bg_grey_trans_05 {
@@ -35,6 +71,14 @@ body {
 
 .bg_grey_trans_06 {
   background-color: rgba(102, 102, 102, 0.553) !important;
+}
+
+.width_25 {
+  width: 25% !important;
+}
+
+.width_20 {
+  width: 20% !important;
 }
 
 .width_30 {
@@ -55,6 +99,10 @@ body {
 
 .width_70 {
   width: 70% !important;
+}
+
+.center {
+  text-align: center;
 }
 
 .height_1 {
@@ -99,6 +147,22 @@ body {
 
 .color_grey {
   color: #9ea810 !important;
+}
+
+.pd_1 {
+  padding: 1rem;
+}
+
+.pd_2 {
+  padding: 2rem;
+}
+
+.pdr_13 {
+  padding-left: 13rem;
+}
+
+.prelative {
+  position: relative;
 }
 
 /*# sourceMappingURL=index.css.map */

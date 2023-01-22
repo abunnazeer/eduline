@@ -11,7 +11,7 @@ import { faPhone, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 const Navigation = () => {
   return (
-    <Fragment className={styles.heading}>
+    <Fragment>
       <TopHeader>
         <p>
           <FontAwesomeIcon icon={faLocationDot} className="mr" />
@@ -21,8 +21,8 @@ const Navigation = () => {
           <FontAwesomeIcon icon={faPhone} className="mr" /> 07066543434
         </p>
       </TopHeader>
-      <div className={styles.nav}>
-        <FlexCard>
+      <div className={styles.heading}>
+        <FlexCard value=" space-between">
           <img src={logo} alt="logo" className={styles.logo} />
           <Lists>
             <Link to="#">

@@ -1,9 +1,9 @@
 $primary-color: red;
 .heading {
-  position: fixed;
-  top: 0;
-}
-.nav {
+  background-color: #fff;
+  position: sticky;
+  top: 0rem;
+  z-index: 9999;
   padding: 1.1rem 10rem;
   img {
     height: 4rem;

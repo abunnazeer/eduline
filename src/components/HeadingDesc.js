@@ -4,6 +4,7 @@ const HeadingDesc = props => {
     <div
       className={styles.heading}
       style={{
+        position: props?.positionName,
         top: props?.top,
         left: props?.left,
       }}
