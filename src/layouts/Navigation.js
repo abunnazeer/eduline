@@ -5,11 +5,23 @@ import Lists from "../components/Lists";
 import { Link } from "react-router-dom";
 import Button from "../components/Button";
 import FlexCard from "../components/FlexCard";
+import TopHeader from "../components/TopHeader";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhone, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 const Navigation = () => {
   return (
-    <Fragment>
-      <div className={styles.heading}>
+    <Fragment className={styles.heading}>
+      <TopHeader>
+        <p>
+          <FontAwesomeIcon icon={faLocationDot} className="mr" />
+          No. 5 Dr, Bukar House Custom area
+        </p>
+        <p>
+          <FontAwesomeIcon icon={faPhone} className="mr" /> 07066543434
+        </p>
+      </TopHeader>
+      <div className={styles.nav}>
         <FlexCard>
           <img src={logo} alt="logo" className={styles.logo} />
           <Lists>
@@ -31,7 +43,7 @@ const Navigation = () => {
           </Lists>
           <div>
             <Button name="Login" />
-            <Button name="Register" />
+            <Button name="Register" bgcolor="#de9e00" />
           </div>
         </FlexCard>
       </div>

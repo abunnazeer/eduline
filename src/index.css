@@ -24,4 +24,81 @@ body {
   box-sizing: border-box;
 }
 
+.mr {
+  margin-right: 1rem;
+}
+
+.bg_grey_trans_05 {
+  padding: 0 1.5rem;
+  background-color: rgba(102, 102, 102, 0.5529411765) !important;
+}
+
+.bg_grey_trans_06 {
+  background-color: rgba(102, 102, 102, 0.553) !important;
+}
+
+.width_30 {
+  width: 30% !important;
+}
+
+.width_40 {
+  width: 40% !important;
+}
+
+.width_50 {
+  width: 50% !important;
+}
+
+.width_60 {
+  width: 60%;
+}
+
+.width_70 {
+  width: 70% !important;
+}
+
+.height_1 {
+  height: 1rem !important;
+}
+
+.height_2 {
+  height: 2rem !important;
+}
+
+.height_3 {
+  height: 3rem !important;
+}
+
+.height_4 {
+  height: 4rem !important;
+}
+
+.height_5 {
+  height: 5rem !important;
+}
+
+.size_1_5 {
+  font-size: 1.5rem !important;
+}
+
+.size_2 {
+  font-size: 2rem !important;
+}
+
+.size_2_5 {
+  font-size: 2.5rem !important;
+}
+
+.size_3 {
+  font-size: 3rem !important;
+}
+
+.color_white {
+  color: #fff !important;
+}
+
+.color_grey {
+  color: #9ea810 !important;
+}
+
 /*# sourceMappingURL=index.css.map */
